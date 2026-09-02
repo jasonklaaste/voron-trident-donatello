@@ -1,0 +1,8 @@
+# Klipper writes these on every SAVE_CONFIG. They are generated snapshots,
+# not configuration, and they accumulate indefinitely. Real config lives in
+# printer.cfg and the per-subsystem includes.
+printer-*.cfg
+
+# Ad-hoc hand-made backups. Git is the backup now.
+*.bkp
+*.backup
